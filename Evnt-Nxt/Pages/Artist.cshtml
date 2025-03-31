@@ -1,0 +1,36 @@
+﻿@page
+@model Evnt_Nxt.Pages.ArtistModel
+@{
+    <h1>Artist Page</h1>
+
+
+    <form method="post">
+    
+        
+        <input type="number" name="id"/>
+        <input type="text" name="name"/>
+        <input type="text" name="genre"/>
+
+        <button type="submit">Add</button>
+        
+        <h2>Artists and Their Genres</h2>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Artist</th>
+                <th>Genre</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model.ArtistGenreList)
+            {
+                <tr>
+                    <td>@item.ArtistName</td>
+                    <td>@item.GenreName</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </form>
+}
