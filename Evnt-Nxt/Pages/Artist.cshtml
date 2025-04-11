@@ -23,12 +23,11 @@
             </tr>
             </thead>
             <tbody>
-            @foreach (var item in Model.ArtistGenreList)
+                @foreach (var artist in Model.Artist)
             {
                 <tr>
-                    <td>@item.ArtistName</td>
-                    <td>@item.GenreName</td>
-                </tr>
+                    <td>@artist.Name</td>
+                 </tr>
             }
             </tbody>
         </table>

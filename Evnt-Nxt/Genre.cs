@@ -9,7 +9,5 @@ namespace Evnt_Nxt
 
         [Required]
         public string Name { get; set; }
-
-        public List<ArtistGenre> ArtistGenres { get; set; } = new();
     }
 }

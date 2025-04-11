@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bCHaYiCO6vM=",
+  "dgSpecHash": "SYDkoTAE+7s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\wvdb\\source\\repos\\Evnt-Nxt\\Evnt-Nxt\\Evnt-Nxt.csproj",
+  "projectFilePath": "C:\\Users\\wvdb\\Documents\\GitHub\\Evnt-Nxt\\Evnt-Nxt\\Evnt-Nxt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wvdb\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\wvdb\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -14,7 +14,6 @@ namespace Evnt_Nxt.Pages
         public Genre NewGenre { get; set; }
         public List<Artist> Artist { get; set; }= new List<Artist>();
         public List<Genre> Genres { get; set; } = new List<Genre>();
-        public List<(string ArtistName, string GenreName)> ArtistGenreList { get; set; } = new();
 
         public ArtistModel(MyDbContext context)
         {
@@ -32,7 +31,7 @@ namespace Evnt_Nxt.Pages
         public Microsoft.AspNetCore.Mvc.IActionResult OnPost()
         {
             Context.Artist.Add(NewArtist);
-            Context.GenreList.Add(NewGenre);
+            Context.Genre.Add(NewGenre);
             Context.SaveChanges();
             return RedirectToPage();
         }

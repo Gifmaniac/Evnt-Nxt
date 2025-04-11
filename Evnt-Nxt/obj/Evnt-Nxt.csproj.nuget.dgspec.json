@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wvdb\\source\\repos\\Evnt-Nxt\\Evnt-Nxt\\Evnt-Nxt.csproj": {}
+    "C:\\Users\\wvdb\\Documents\\GitHub\\Evnt-Nxt\\Evnt-Nxt\\Evnt-Nxt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wvdb\\source\\repos\\Evnt-Nxt\\Evnt-Nxt\\Evnt-Nxt.csproj": {
+    "C:\\Users\\wvdb\\Documents\\GitHub\\Evnt-Nxt\\Evnt-Nxt\\Evnt-Nxt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wvdb\\source\\repos\\Evnt-Nxt\\Evnt-Nxt\\Evnt-Nxt.csproj",
+        "projectUniqueName": "C:\\Users\\wvdb\\Documents\\GitHub\\Evnt-Nxt\\Evnt-Nxt\\Evnt-Nxt.csproj",
         "projectName": "Evnt-Nxt",
-        "projectPath": "C:\\Users\\wvdb\\source\\repos\\Evnt-Nxt\\Evnt-Nxt\\Evnt-Nxt.csproj",
+        "projectPath": "C:\\Users\\wvdb\\Documents\\GitHub\\Evnt-Nxt\\Evnt-Nxt\\Evnt-Nxt.csproj",
         "packagesPath": "C:\\Users\\wvdb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wvdb\\source\\repos\\Evnt-Nxt\\Evnt-Nxt\\obj\\",
+        "outputPath": "C:\\Users\\wvdb\\Documents\\GitHub\\Evnt-Nxt\\Evnt-Nxt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -93,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
